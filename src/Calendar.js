@@ -1,44 +1,59 @@
 import React from "react";
 import FullCalendar from "@fullcalendar/react";
-import dayGridPlugin from "@fullcalendar/daygrid"; 
-import logo from "./assets/images/logo192.png";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import bootstrapPlugin from "@fullcalendar/bootstrap";
+import timeGridPlugin from "@fullcalendar/timegrid";
+import listPlugin from "@fullcalendar/list";
+
+import "bootstrap/dist/css/bootstrap.css";
+import "@fortawesome/fontawesome-free/css/all.css";
+import "./scss/custom.scss";
 
 export default class Calendar extends React.Component {
   render() {
     function renderEventContent(eventInfo) {
+      const { event } = eventInfo;
+      const { type } = event.extendedProps;
+      console.log(event);
+      console.log(type);
       return (
-        <div>
-          <b>{eventInfo.timeText}</b>
-          <i>{eventInfo.event.title}</i>
-          <img src={eventInfo.event.url} style={{ width: "100px" }} alt={eventInfo.event.title}/>
+        <div className={`bg-${type}`}>
+          <b >{eventInfo.event.title}</b>
         </div>
       );
     }
     return (
       <FullCalendar
-        plugins={[dayGridPlugin]}
+        plugins={[dayGridPlugin, bootstrapPlugin, timeGridPlugin, listPlugin]}
+        themeSystem="bootstrap"
         initialView="dayGridMonth"
+        headerToolbar={{
+          start: "prev,next title",
+          center:'',
+          end: "dayGridMonth,timeGridWeek,timeGridDay,listWeek",
+        }}
         eventContent={renderEventContent}
         events={[
-          { title: "event 1", date: "2021-11-12" },
-          { title: "event 2", date: "2021-11-12", backgroundColor: "green" },
           {
-            title: "event 3",
-            date: "2021-11-12",
-            backgroundColor: "red",
-            url: logo,
+            title: "Dinner",
+            date: "2021-11-17",
+            extendedProps: {
+              type: "food",
+            },
           },
           {
-            title: "event 4",
-            date: "2021-11-12",
-            backgroundColor: "purple",
-            url: "https://res.cloudinary.com/jnk/image/upload/v1617382778/sample.jpg",
+            title: "Meditation",
+            date: "2021-11-17",
+            extendedProps: {
+              type: "health",
+            },
           },
           {
-            title: "event 5",
-            date: "2021-11-13",
-            backgroundColor: "pink",
-            url: "https://res.cloudinary.com/dekqenh3y/image/upload/v1637620922/sample.jpg",
+            title: "Doctor's Appointment",
+            date: "2021-11-19",
+            extendedProps: {
+              type: "health",
+            },
           },
         ]}
       />

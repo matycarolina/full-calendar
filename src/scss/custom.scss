@@ -1,0 +1,11 @@
+$theme-colors: (
+  "primary": #6610f2,
+  "danger": #ff4136,
+  "health": #dc3546af,
+  "food":#ffc1079a,
+  "health-text": #dc3545,
+  "food-text":#ffc107
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
