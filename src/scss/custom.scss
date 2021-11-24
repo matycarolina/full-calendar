@@ -1,11 +1,37 @@
 $theme-colors: (
   "primary": #6610f2,
   "danger": #ff4136,
-  "health": #dc3546af,
-  "food":#ffc1079a,
-  "health-text": #dc3545,
-  "food-text":#ffc107
+  "health": lighten(red,40%),
+  "food":lighten(#ffc107,40%),
+  "health-text": #ff0000,
+  "food-text":#ffc107,
+  "borderTest": #00ff00,
 );
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
+.fc-theme-standard td{
+  border: 1px solid #ddd;
+}
+.fc-theme-standard th{
+  border:  none;
+  border-bottom: 1px solid #ddd;
+}
+.fc-daygrid-day-number{
+  text-decoration: none;
+  color:#ddd;
+}
+.fc-col-header-cell-cushion{
+  text-decoration: none;
+  color:rgb(122, 121, 121);
+}
+.fc-daygrid-day-events{
+  border: none;
+}
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active{
+  background-color: lighten(#6610f2, 30%);
+}
+fc-timeGridWeek-button fc-button fc-button-primary{
+  background-color: white;
+  color: #6610f2;
+}

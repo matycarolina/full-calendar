@@ -14,10 +14,11 @@ export default class Calendar extends React.Component {
     function renderEventContent(eventInfo) {
       const { event } = eventInfo;
       const { type } = event.extendedProps;
+      const {borderColor} = event;
       console.log(event);
       console.log(type);
       return (
-        <div className={`bg-${type}`}>
+        <div className={`bg-${type} text-${type}-text`} style={{borderColor:borderColor}}>
           <b >{eventInfo.event.title}</b>
         </div>
       );
@@ -25,7 +26,7 @@ export default class Calendar extends React.Component {
     return (
       <FullCalendar
         plugins={[dayGridPlugin, bootstrapPlugin, timeGridPlugin, listPlugin]}
-        themeSystem="bootstrap"
+
         initialView="dayGridMonth"
         headerToolbar={{
           start: "prev,next title",
@@ -54,6 +55,7 @@ export default class Calendar extends React.Component {
             extendedProps: {
               type: "health",
             },
+            borderColor:'rose',
           },
         ]}
       />
