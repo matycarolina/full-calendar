@@ -18,3 +18,15 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.11.29 18:04:56 WARN  Build server is not auto-connectable.[0m
 [0m2021.11.29 18:04:56 WARN  no build tool detected in workspace '/home/marialejandra/InitG/Ejercicios InitGrammers/full-calendar-ejercicio-v2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 [0m2021.11.30 08:58:59 INFO  shutting down Metals[0m
+[0m2021.12.08 23:12:44 INFO  Started: Metals version 0.10.9 in workspace '/home/marialejandra/InitG/Ejercicios InitGrammers/full-calendar-ejercicio-v2' for client Visual Studio Code 1.62.2.[0m
+[0m2021.12.08 23:12:45 INFO  time: initialize in 0.75s[0m
+[0m2021.12.08 23:12:46 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.08 23:12:46 WARN  no build tool detected in workspace '/home/marialejandra/InitG/Ejercicios InitGrammers/full-calendar-ejercicio-v2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Dec 08, 2021 11:18:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.12.09 16:04:33 INFO  Started: Metals version 0.10.9 in workspace '/home/marialejandra/InitG/Ejercicios InitGrammers/full-calendar-ejercicio-v2' for client Visual Studio Code 1.62.2.[0m
+[0m2021.12.09 16:04:35 INFO  time: initialize in 2.02s[0m
+[0m2021.12.09 16:04:42 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.09 16:04:42 WARN  no build tool detected in workspace '/home/marialejandra/InitG/Ejercicios InitGrammers/full-calendar-ejercicio-v2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Dec 09, 2021 4:08:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
