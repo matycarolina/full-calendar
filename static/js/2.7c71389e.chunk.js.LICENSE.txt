@@ -4,6 +4,19 @@ object-assign
 @license MIT
 */
 
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+FullCalendar Scheduler v5.10.1
+Docs & License: https://fullcalendar.io/scheduler
+(c) 2021 Adam Shaw
+*/
+
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
