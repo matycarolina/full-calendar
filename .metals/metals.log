@@ -52,3 +52,4 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.12.26 11:58:14 WARN  no build tool detected in workspace '/home/marialejandra/InitG/Ejercicios InitGrammers/full-calendar-ejercicio-v2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 Dec 28, 2021 9:15:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.12.28 09:16:12 INFO  shutting down Metals[0m
