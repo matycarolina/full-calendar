@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/full-calendar/static/css/main.aa5ebabc.chunk.css",
-    "main.js": "/full-calendar/static/js/main.68a6ea61.chunk.js",
-    "main.js.map": "/full-calendar/static/js/main.68a6ea61.chunk.js.map",
-    "runtime-main.js": "/full-calendar/static/js/runtime-main.1ae15d7a.js",
-    "runtime-main.js.map": "/full-calendar/static/js/runtime-main.1ae15d7a.js.map",
-    "static/css/2.acb5e023.chunk.css": "/full-calendar/static/css/2.acb5e023.chunk.css",
-    "static/js/2.7c71389e.chunk.js": "/full-calendar/static/js/2.7c71389e.chunk.js",
-    "static/js/2.7c71389e.chunk.js.map": "/full-calendar/static/js/2.7c71389e.chunk.js.map",
-    "static/js/3.72961333.chunk.js": "/full-calendar/static/js/3.72961333.chunk.js",
-    "static/js/3.72961333.chunk.js.map": "/full-calendar/static/js/3.72961333.chunk.js.map",
+    "main.css": "/full-calendar/static/css/main.d4205d86.chunk.css",
+    "main.js": "/full-calendar/static/js/main.3b4811b0.chunk.js",
+    "main.js.map": "/full-calendar/static/js/main.3b4811b0.chunk.js.map",
+    "runtime-main.js": "/full-calendar/static/js/runtime-main.f5cf160a.js",
+    "runtime-main.js.map": "/full-calendar/static/js/runtime-main.f5cf160a.js.map",
+    "static/css/2.544d0c61.chunk.css": "/full-calendar/static/css/2.544d0c61.chunk.css",
+    "static/js/2.9b08fef7.chunk.js": "/full-calendar/static/js/2.9b08fef7.chunk.js",
+    "static/js/2.9b08fef7.chunk.js.map": "/full-calendar/static/js/2.9b08fef7.chunk.js.map",
+    "static/js/3.af2be48b.chunk.js": "/full-calendar/static/js/3.af2be48b.chunk.js",
+    "static/js/3.af2be48b.chunk.js.map": "/full-calendar/static/js/3.af2be48b.chunk.js.map",
     "index.html": "/full-calendar/index.html",
-    "static/css/2.acb5e023.chunk.css.map": "/full-calendar/static/css/2.acb5e023.chunk.css.map",
-    "static/css/main.aa5ebabc.chunk.css.map": "/full-calendar/static/css/main.aa5ebabc.chunk.css.map",
-    "static/js/2.7c71389e.chunk.js.LICENSE.txt": "/full-calendar/static/js/2.7c71389e.chunk.js.LICENSE.txt",
+    "static/css/2.544d0c61.chunk.css.map": "/full-calendar/static/css/2.544d0c61.chunk.css.map",
+    "static/css/main.d4205d86.chunk.css.map": "/full-calendar/static/css/main.d4205d86.chunk.css.map",
+    "static/js/2.9b08fef7.chunk.js.LICENSE.txt": "/full-calendar/static/js/2.9b08fef7.chunk.js.LICENSE.txt",
     "static/media/all.css": "/full-calendar/static/media/fa-solid-900.eeccf4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ae15d7a.js",
-    "static/css/2.acb5e023.chunk.css",
-    "static/js/2.7c71389e.chunk.js",
-    "static/css/main.aa5ebabc.chunk.css",
-    "static/js/main.68a6ea61.chunk.js"
+    "static/js/runtime-main.f5cf160a.js",
+    "static/css/2.544d0c61.chunk.css",
+    "static/js/2.9b08fef7.chunk.js",
+    "static/css/main.d4205d86.chunk.css",
+    "static/js/main.3b4811b0.chunk.js"
   ]
 }
