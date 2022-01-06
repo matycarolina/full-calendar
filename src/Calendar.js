@@ -6,20 +6,13 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import listPlugin from "@fullcalendar/list";
 import resourceTimeGridPlugin from "@fullcalendar/resource-timegrid";
 import resourceTimelinePlugin from "@fullcalendar/resource-timeline";
-import axios from "axios";
-import { useEffect, useState } from "react";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "./scss/custom.scss";
 
-function Calendar() {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    axios.get("/api/users/list/all-data").then(function (response) {
-      setData(response.data);
-    });
-  }, []);
+function Calendar({data}) {
+ 
   function renderEventContent(eventInfo) {
     const { event } = eventInfo;
     const { type, doctor, surgery, patient, status, resourceId } =
@@ -75,7 +68,6 @@ function Calendar() {
       }}
       eventContent={renderEventContent}
       events={data}
-      
     />
   );
 }

@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Calendar from './Calendar';
-import reportWebVitals from './reportWebVitals';
-import'./@fake-db';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import "./@fake-db";
+import { App } from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calendar />
+    <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 reportWebVitals();

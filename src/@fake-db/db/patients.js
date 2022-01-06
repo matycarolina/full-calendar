@@ -1,5 +1,5 @@
 export const data = {
-  users: [
+  patients: [
     {
       id: "1",
       extendedProps: {
@@ -7,12 +7,12 @@ export const data = {
         patient: "Raul Salinas",
         doctor: "Dr. Vicente Garcia",
         surgery: "Apendicectomia",
-        status: "Pendiente",
+        status: "Citado",
       },
-      start: "2021-12-06T11:00:00",
-      end: "2021-12-06T12:30:00",
+      start: "2021-12-28T11:00:00",
+      end: "2021-12-28T12:30:00",
       url: "https://res.cloudinary.com/dekqenh3y/image/upload/v1638303770/llamada-telefonica_v5ba31.png",
-      resourceIds: ["1", "2", "3"],
+      resourceId: "1",
     },
     {
       id: "2",
@@ -22,11 +22,12 @@ export const data = {
         patient: "Carolina Murillo",
         doctor: "Dr. Xavier Serrano",
         surgery: "Colecistectomia",
-        status: "Pendiente",
+        status: "En Cirugia",
       },
-      start: "2021-12-10T10:00:00",
-      end: "2021-12-10T11:00:00",
+      start: "2021-12-28T10:00:00",
+      end: "2021-12-28T11:00:00",
       url: "https://res.cloudinary.com/dekqenh3y/image/upload/v1638303770/llamada-telefonica_v5ba31.png",
+      resourceId: "2"
     },
     {
       id:"3",
@@ -36,27 +37,27 @@ export const data = {
         patient: "Santiago Rojas",
         doctor: "Dr. Alberto Perez",
         surgery: "Sutura fractura expuesta",
-        status: "Pendiente",
+        status: "Cirugia Finalizada",
       },
-      start: "2021-12-12T06:00:00",
-      end: "2021-12-12T08:00:00",
+      start: "2021-12-28T06:00:00",
+      end: "2021-12-28T08:00:00",
       url: "https://res.cloudinary.com/dekqenh3y/image/upload/v1638303770/llamada-telefonica_v5ba31.png",
-      resourceIds: ["1", "2", "3"],
+      resourceId: "3",
     },
     {
       id:"4",
       title: "Doctor's Appointment",
       extendedProps: {
         type: "appointments",
-        patient: "Santiago Rojas",
+        patient: "Manuel Davila",
         doctor: "Dr. Alberto Perez",
-        surgery: "Sutura fractura expuesta",
-        status: "Completo",
+        surgery: "Extraccion Terceros Molares",
+        status: "No Presentado",
       },
-      start: "2021-12-12T08:00:00",
-      end: "2021-12-12T10:00:00",
+      start: "2021-12-28T08:00:00",
+      end: "2021-12-28T10:00:00",
       url: "https://res.cloudinary.com/dekqenh3y/image/upload/v1638303770/llamada-telefonica_v5ba31.png",
-      resourceIds: ["1", "2", "3"],
+      resourceId: "1",
     },
   ]
 }

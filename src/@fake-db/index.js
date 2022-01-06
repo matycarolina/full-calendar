@@ -1,4 +1,4 @@
 import mock from './mock'
-import './api/users'
+import './api/patients'
 
 mock.onAny().passThrough()
